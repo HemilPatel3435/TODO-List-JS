@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Prompt:ital,wght@1,100;1,300&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1530519729491-aea5b51d1ee1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-1{
+    text-align: center;
+    height: 55vh;
+    padding: 1rem;
+    /* background-color: aqua; */
+}
+
+.todo{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 97.5vw;
+}
+
+.todo input,textarea{
+    text-align: center;
+    margin: .5rem 1rem;
+    padding: 12px 0px;
+    resize: none;
+    border-radius: 2rem;
+    border: 1px solid gray;
+}
+
+#addTodo{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    border: 1px solid gray;
+}
+
+#addTodo:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 97.5vw;
+    height: 40vh;
+    padding: 10px 10px;
+}
+
+.box{
+    background-color: whitesmoke;
+    text-align: center;
+    height: 35vh;
+    width: 15vw;
+    padding: 1rem 1rem;
+    margin: 10px 10px;
+    border-radius: 2rem;
+    border: 1px solid gray;
+    box-shadow: 2px 1px 1px black;
+}
+
+.box h1,h4{
+    margin: 10px 10px;
+}
+
+.box h4{
+    text-align: justify;
+}
+
+#close{
+    position: relative;
+    left: 6rem;
+    bottom: 1.5rem;
+    height: 0;
+}
+
+#close:hover{
+    cursor: pointer;
+    color: red;
+}
